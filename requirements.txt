@@ -6,4 +6,4 @@ Werkzeug
 Flask
 requests
 Pillow
-Numpy
+numpy==1.24.1
