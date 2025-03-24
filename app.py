@@ -4,7 +4,7 @@ import json
 import torchvision.transforms as transforms
 from PIL import Image
 from torchvision import models
-
+import numpy
 
 app = Flask(__name__)
 model = models.googlenet(pretrained=True)
